@@ -17,21 +17,15 @@ public class Main {
 
             reverse = reverse + name.charAt(i);
         }
-
       System.out.println("Reverse String\n"+reverse);
 
+	    
         // reversing an array
         String listOfName[] = {"Kabin","Pratik","Diwakar","Ujwal"};
 
         for(int i = listOfName.length -1; i >=0;i--){
-
+		
             System.out.println(listOfName[i]);
-
         }
-
-
-
     }
-
-
 }
